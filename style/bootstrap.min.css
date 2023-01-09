@@ -55,7 +55,7 @@ body {
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-     min-height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -149,6 +149,23 @@ h5 {
 .h6,
 h6 {
     font-size: 1rem
+}
+
+.bg-opacity-10 {
+
+    opacity: 10%;
+}
+
+.bg-opacity-25 {
+    opacity: 25%;
+}
+
+.bg-opacity-50 {
+    opacity: 50%;
+}
+
+.bg-opacity-75 {
+    opacity: 75%;
 }
 
 p {
@@ -7800,6 +7817,7 @@ fieldset:disabled .btn {
 .bg-cover {
     background-size: cover !important;
 }
+
 .my-auto {
     margin-top: auto !important;
     margin-bottom: auto !important
